@@ -1,0 +1,42 @@
+<form action="process.php" method="post">
+    <H1>My Registration Form</H1>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name">
+    <br><br>
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name">
+    <br><br>
+    <label for="email">Email:     </label>
+    <input type="text" id="email" name="email">
+    <br><br>
+    <label for="password">Password:  </label>
+    <input type="text" id="password" name="password">
+    <br><br>
+    <label for="PW Confirm">PW Confirm: </label>
+    <input type="text" id="pw_confirm" name="pw_confirm">
+    <br><br>
+    <form action="/action_page.php">
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+    <input type="submit">
+    </form>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="decline">Other</label>
+    <input type="radio" id="decline" name="gender" value="decline">
+    <p>A short description about yourself:</p>
+    <textarea name="description"></textarea>
+    <br>
+    <br>
+    <label for="Birthday">Favorite Programming Language:  </label>
+    <select name="Language">
+    <option value="Javascript">Javascript</option>
+    <option value="C++">C++</option>
+    <option value="Python">Python</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+</form>
