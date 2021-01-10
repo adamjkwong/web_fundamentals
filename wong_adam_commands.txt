@@ -1,0 +1,83 @@
+(base) ➜  ~ git:(master) ✗ ls
+Applications      Downloads         Pictures          opt
+DS Class Dec 2020 Library           Projects
+Desktop           Movies            Public
+Documents         Music             README.md
+(base) ➜  ~ git:(master) ✗ cd desktop
+(base) ➜  desktop git:(localbranch) ✗ ls
+Air Conditioning CD               ZOOM             ali aliaa
+(base) ➜  desktop git:(localbranch) ✗ mkdir test
+(base) ➜  desktop git:(localbranch) ✗ touch index.html
+(base) ➜  desktop git:(localbranch) ✗ ls             
+Air Conditioning ZOOM             index.html
+CD               ali aliaa        test
+(base) ➜  desktop git:(localbranch) ✗ rm index.html
+(base) ➜  desktop git:(localbranch) ✗ cd test
+(base) ➜  test git:(localbranch) ✗ touch index.html
+(base) ➜  test git:(localbranch) ✗ touch style.css
+(base) ➜  test git:(localbranch) ✗ touch commands.txt
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   style.css
+(base) ➜  test git:(localbranch) ✗ cp index.html index_2.html
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html style.css
+(base) ➜  test git:(localbranch) ✗ cd ..
+(base) ➜  desktop git:(localbranch) ✗ ls
+Air Conditioning ZOOM             test
+CD               ali aliaa
+(base) ➜  desktop git:(localbranch) ✗ mkdir destination
+(base) ➜  desktop git:(localbranch) ✗ cd ..
+(base) ➜  ~ git:(master) ✗ ls
+Applications      Downloads         Pictures          opt
+DS Class Dec 2020 Library           Projects
+Desktop           Movies            Public
+Documents         Music             README.md
+(base) ➜  ~ git:(master) ✗ cd desktop
+(base) ➜  desktop git:(localbranch) ✗ ls
+Air Conditioning ZOOM             destination
+CD               ali aliaa        test
+(base) ➜  desktop git:(localbranch) ✗ cd destination
+(base) ➜  destination git:(localbranch) ✗ ls
+(base) ➜  destination git:(localbranch) ✗ cd ..
+(base) ➜  desktop git:(localbranch) ✗ ls
+Air Conditioning CD               ZOOM             ali aliaa        destination      test
+(base) ➜  desktop git:(localbranch) ✗ cd test
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html style.css
+(base) ➜  test git:(localbranch) ✗ mv index_2.html ../index_2.html
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   style.css
+(base) ➜  test git:(localbranch) ✗ cd ..
+(base) ➜  desktop git:(localbranch) ✗ ls
+Air Conditioning CD               ZOOM             ali aliaa        destination      index_2.html     test
+(base) ➜  desktop git:(localbranch) ✗ mv index_2.html destination
+(base) ➜  desktop git:(localbranch) ✗ ls
+Air Conditioning CD               ZOOM             ali aliaa        destination      test
+(base) ➜  desktop git:(localbranch) ✗ cd destination
+(base) ➜  destination git:(localbranch) ✗ ks
+zsh: command not found: ks
+(base) ➜  destination git:(localbranch) ✗ ls
+index_2.html
+(base) ➜  destination git:(localbranch) ✗ ls
+index_2.html
+(base) ➜  destination git:(localbranch) ✗ cd ..
+(base) ➜  desktop git:(localbranch) ✗ cd test
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   style.css
+(base) ➜  test git:(localbranch) ✗ rm style.css
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html
+(base) ➜  test git:(localbranch) ✗ cd ..
+(base) ➜  desktop git:(localbranch) ✗ ls
+Air Conditioning CD               ZOOM             ali aliaa        destination      test
+(base) ➜  desktop git:(localbranch) ✗ rm destination
+rm: destination: is a directory
+(base) ➜  desktop git:(localbranch) ✗ rm -rf destination
+(base) ➜  desktop git:(localbranch) ✗ ls
+Air Conditioning CD               ZOOM             ali aliaa        test
+(base) ➜  desktop git:(localbranch) ✗ ls
+Air Conditioning CD               ZOOM             ali aliaa        test
+(base) ➜  desktop git:(localbranch) ✗ cd test
+
