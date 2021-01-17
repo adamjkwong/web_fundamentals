@@ -1,0 +1,95 @@
+/*CSS reset settings here*/
+*{
+   margin: 0px;
+   padding: 0px;
+   }
+   #wrapper{
+   width: 970px;
+   height:800px;
+   padding: 5px;
+   background-color: silver;
+   color: white;
+   }
+   #header{
+   min-height: 70px;
+   width: 920px;
+   margin-top: 25px;
+   margin-left: 25px;
+   margin-bottom: 25px;
+   display: inline-block;
+   border-radius: 25px;
+   background-color:rgb(207, 48, 54); 
+   }
+   .textcenter{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-indent: 30px;
+   color: lightgray;
+   }
+   .textpush{
+   padding-top: 10px;
+   }
+   .textindenter{
+   text-indent: 15px;
+   }
+   .marginpush{
+   margin-left: 20px;
+   }
+   #navigation{
+   min-height: 300px;
+   width: 200px;
+   margin-left: 25px;
+   margin-right: 15px;
+   display: inline-block;
+   vertical-align: top;
+   border-radius: 25px;
+   background-color: rgb(42,125,140);
+   color: blue;
+   }
+   #main_content{
+   min-height: 450px;
+   width: 700px;
+   display: inline-block;
+   border-radius: 25px;
+   background-color: rgb(14, 24, 34);
+   color: white;
+   }
+   #footer{
+   min-height: 100px;
+   width: 920px;
+   margin-left: 25px;
+   margin-top: 25px;
+   display: inline-block;
+   vertical-align: top;
+   border-radius: 25px;
+   background-color: gray;
+   color: white;
+   }
+   .center {
+      margin: auto;
+      width: 60%;
+      padding: 5px;
+   }
+   ul{
+      margin-left: 10px;
+   }
+   li{
+      margin-left: 15px;
+   }
+/* to find the specific colors i used: https://imagecolorpicker.com/ */
+/* 
+margin-top
+   margin-right
+   margin-bottom
+   margin-left
+
+   padding-top
+padding-right
+padding-bottom
+padding-left: xxpx;
+
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+-->
