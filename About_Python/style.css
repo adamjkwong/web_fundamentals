@@ -1,0 +1,223 @@
+/*CSS reset settings here*/
+/*This is for About_Python Project*/
+#blacker{
+    color: black;
+    display:inline-block;
+    vertical-align: top;
+}
+.color_bar{
+    width: 425px;
+    min-height: 4px;
+    background-color: #73A7D5;
+}
+.flex_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer{
+    background-image: linear-gradient(#26537A, #26537A, #3373AA);
+    min-height: 200px;
+    width: 1050px;
+    text-align: center;
+    color: #88B9E5;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 50px;
+}
+footer li {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+footer a {
+    color: #88B9E5;
+    font-size: 25px;
+    text-decoration: none;
+}
+#go_button{
+    display: inline-block;
+    background-color: #255076;
+    color: white;
+    width: 40px;
+    margin-top: 10px;
+    padding: 7px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #C0C0C0;
+    border-radius: 5px;
+}
+img{
+    width: 400px;
+    min-height: 150px;
+    margin-left: 30px;
+}
+
+#last_paragraph{
+    color: lightblue;
+    display: inline;
+}
+.white_body{
+    background: white;
+    min-height: 150px;
+    width: 1050px;
+}
+.white_body .the_table{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    background: white;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 250px;
+    width: 400px;
+}
+.white_body .the_table p{
+    display:inline;
+    margin-top: 0px;
+    vertical-align: top;
+}
+.white_body p{
+    text-align: center;
+}
+.white_body .the_table h2{
+    text-align: center;
+}
+.white_body ul{
+    min-height: 70px;
+    list-style: none;
+}
+.white_body li{
+    color: #78AAD7;
+}
+.white_body .the_table ul li::before {
+    content: "\25AA";
+    color: black;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    list-style-type: square;
+}
+.navigation{
+    text-align: center;
+    min-height: 30px;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: black;
+    width: 850px;
+    font-size: 21px;
+    display: inline-block;
+    font-family: "open sans";
+    box-shadow: 5px 5px 20px black;
+    background-image: linear-gradient(#3A78AD, rgb(73,127,173), #3A78AD);
+}
+.navigation li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: 25px;
+    vertical-align: center;
+}
+.top_table {
+    margin-left: 60px;
+}
+.top_table .searchbar {
+    background-color: #444444;
+    min-height: 55px;
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
+.top_table input[type=text] {
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 17px;
+    border: none;
+    vertical-align: center;
+    text-align: center;
+}
+.wrapper{
+    background: #255076;
+    min-height: 600px;
+    width: 1050px;
+    margin: 0px;
+    border: none;
+}
+
+.wrapper a{
+    color: white;
+}
+
+.wrapper .top_table{
+    margin-top: 30px;
+    margin-left: 150px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 300px;
+}
+
+.wrapper .top_table p{
+    display:inline-block;
+    vertical-align: top;
+    margin: 0px;
+    min-height: 10px;
+    width: 70px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.wrapper .the_table a{
+    width: 25px;
+}
+.wrapper .the_table ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.wrapper .the_table li{
+    margin-left: 60px;
+    color: yellow;
+    list-style: none;
+}
+.wrapper .the_table li::before {
+    content: '»';
+    margin-right: 10px;
+}
+
+.wrapper p{
+    color: white;
+    display:inline-block;
+    width: 625px;
+    min-height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.wrapper h2{
+    color: yellow;
+    font-style: italic;
+    text-align: center;
+    font-family: "raleway";
+}
+
+.wrapper h3{
+    color: white;
+    text-align: center;
+}
+
+.yellower{
+    color: yellow;
+    display:inline-block;
+    vertical-align: top;
+}
