@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Dogs</title>
+    <script src="javascript.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#image_one").click(function(){
+                $("#image_one").toggle();
+            });
+            $("#image_two").click(function(){
+                $("#image_two").toggle();
+            });
+            $("#image_three").click(function(){
+                $("#image_three").toggle();
+            });
+            $("#image_four").click(function(){
+                $("#image_four").toggle();
+            });
+            $("#image_five").click(function(){
+                $("#image_five").toggle();
+            });
+            $("#image_six").click(function(){
+                $("#image_six").toggle();
+            });
+            $("#image_seven").click(function(){
+                $("#image_seven").toggle();
+            });
+            $("#image_eight").click(function(){
+                $("#image_eight").toggle();
+            });
+            $(".the_button").click(function(){
+                $("img").slideDown(1000);
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <h1>JQuery - Assignment 1</h1>
+    <div class="image_container">
+        <img src="images/dog.jpg" alt="Dog1" id="image_one">
+        <img src="images/dog.jpg" alt="Dog2" id="image_two">
+        <img src="images/dog.jpg" alt="Dog3" id="image_three">
+        <img src="images/dog.jpg" alt="Dog4" id="image_four">
+    </div>
+    <div class="image_container">
+        <img src="images/dog.jpg" alt="Dog5" id="image_five">
+        <img src="images/dog.jpg" alt="Dog6" id="image_six">
+        <img src="images/dog.jpg" alt="Dog7" id="image_seven">
+        <img src="images/dog.jpg" alt="Dog8" id="image_eight">
+    </div>
+    <div class="the_button">Restore</div>
+</body>
+</html>
