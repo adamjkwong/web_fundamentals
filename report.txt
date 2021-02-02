@@ -1,0 +1,107 @@
+(base) ➜  ~ git:(master) ✗ ls
+Applications      Downloads         Pictures          opt
+DS Class Dec 2020 Library           Projects
+Desktop           Movies            Public
+Documents         Music             README.md
+(base) ➜  ~ git:(master) ✗ cd Desktop
+(base) ➜  Desktop git:(localbranch) ✗ mkdir test
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               test
+(base) ➜  Desktop git:(localbranch) ✗ cd test
+(base) ➜  test git:(localbranch) ✗ touch index.html
+(base) ➜  test git:(localbranch) ✗ touch styles.css
+(base) ➜  test git:(localbranch) ✗ touch commands.txt
+(base) ➜  test git:(localbranch) ✗ cp index.html index_2.html
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html styles.css
+(base) ➜  test git:(localbranch) ✗ cd ..
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               test
+(base) ➜  Desktop git:(localbranch) ✗ mkdir destination
+(base) ➜  Desktop git:(localbranch) ✗ cd test
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html styles.css
+(base) ➜  test git:(localbranch) ✗ rm -rf styles.cc
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html styles.css
+(base) ➜  test git:(localbranch) ✗ rm -rf styles.css
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html
+(base) ➜  test git:(localbranch) ✗ cd ..
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               destination      test
+(base) ➜  Desktop git:(localbranch) ✗ cd destination
+(base) ➜  destination git:(localbranch) ✗ ls
+(base) ➜  destination git:(localbranch) ✗ cd ..
+(base) ➜  Desktop git:(localbranch) ✗ ls                
+Air Conditioning CD               destination      test
+(base) ➜  Desktop git:(localbranch) ✗ cd test
+(base) ➜  test git:(localbranch) ✗ mv index_2.html destination
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt destination  index.html
+(base) ➜  test git:(localbranch) ✗ cd ..
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               destination      test
+(base) ➜  Desktop git:(localbranch) ✗ cd destination
+(base) ➜  destination git:(localbranch) ✗ ls
+(base) ➜  destination git:(localbranch) ✗ ls
+(base) ➜  destination git:(localbranch) ✗ cd ..
+(base) ➜  Desktop git:(localbranch) ✗ cd test
+(base) ➜  test git:(localbranch) ✗ cd destination index_2.html
+cd: string not in pwd: destination
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt destination  index.html
+(base) ➜  test git:(localbranch) ✗ mv destination index_2.html
+(base) ➜  test git:(localbranch) ✗ mv index_2.html /destination
+mv: /destination: Read-only file system
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html
+(base) ➜  test git:(localbranch) ✗ cd ..
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               destination      test
+(base) ➜  Desktop git:(localbranch) ✗ sudo mount -o remount,rw '/destination'  
+Password:
+mount: /destination: unknown special file or file system.
+(base) ➜  Desktop git:(localbranch) ✗ sudo mount -o remount,rw '/destination'
+mount: /destination: unknown special file or file system.
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               destination      test
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               destination      test
+(base) ➜  Desktop git:(localbranch) ✗ cd test
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html
+(base) ➜  test git:(localbranch) ✗ mv index_2.html /destination
+mv: /destination: Read-only file system
+(base) ➜  test git:(localbranch) ✗ mv index_2.html test destination
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html   index_2.html
+(base) ➜  test git:(localbranch) ✗ mv index_2.html ../
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html
+(base) ➜  test git:(localbranch) ✗ cd ..
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning destination      test
+CD               index_2.html
+(base) ➜  Desktop git:(localbranch) ✗ mv index_2.html destination
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               destination      test
+(base) ➜  Desktop git:(localbranch) ✗ cd destination
+(base) ➜  destination git:(localbranch) ✗ ls
+index_2.html
+(base) ➜  destination git:(localbranch) ✗ cd ..
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               destination      test
+(base) ➜  Desktop git:(localbranch) ✗ cd test
+(base) ➜  test git:(localbranch) ✗ ls
+commands.txt index.html
+(base) ➜  test git:(localbranch) ✗ cd ..
+(base) ➜  Desktop git:(localbranch) ✗ rm -rf destination
+(base) ➜  Desktop git:(localbranch) ✗ ls
+Air Conditioning CD               test
+(base) ➜  Desktop git:(localbranch) ✗ 
+
